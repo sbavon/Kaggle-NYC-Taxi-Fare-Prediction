@@ -1,4 +1,4 @@
-# Kaggle NYC Taxi Fare Prediction Kaggle Solution (Top 2% Ranked 21st/1400)
+# Kaggle NYC Taxi Fare Prediction Kaggle Solution (Top 2% Ranked 21st/1478)
 
 This repository is the solution that obtains the top 2% ranking of NYC Taxi Fare Prediction competition in Kaggle.
 
