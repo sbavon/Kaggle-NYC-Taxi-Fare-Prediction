@@ -15,7 +15,8 @@ This repository is the solution that obtains the top 2% ranking of NYC Taxi Fare
 		![cluster](Images/cluster.png)
 * the new feature `distance` is added
 * the new feature `distance to airport` is added
+* categorical data are **changed to float32** to prevent memory surge due to Lightgbm python package.  (The library will convert all data to float. So if the data is integer, new data will be created)
 
 ## train and predict ( refer to `train_predict.py`)
 * **lightgbm** is used, and it was trained in the Amazon EC2 instance
-* categorical data are **changed to float32** to prevent memory surge due to Lightgbm python package.  (The library will convert all data to float. So if the data is integer, new data will be created)
+* With this model, the test score is 2.85311
